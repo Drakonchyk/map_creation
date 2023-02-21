@@ -72,7 +72,6 @@ def generate_map(file_path: str, year: int, latitude: float, longitude: float):
     'Map created'
     """
     films = get_films(file_path, year, latitude, longitude)
-    print(films)
     if not films:
         return 'No films found'
     if films == 'File not found':
