@@ -17,7 +17,7 @@ args = parser.parse_args()
 
 def read_file(file_path: str):
     """
-    reads file and yields one line to optimize process
+    reads file and yields one line to optimize process of analysing
     >>> read_file('snow')
     'File not found'
     """
